@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PRODUCTION2" parallel="tests" thread-count="15">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+
+	<test name="PRODTest1">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC355450" />
+		</classes>
+	</test>
+	<test name="PRODTest2">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC369494" />
+		</classes>
+	</test>
+	<test name="PRODTest3">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC369563" />
+		</classes>
+	</test>
+	<test name="PRODTest4">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC89927" />
+		</classes>
+	</test>
+	<test name="PRODTest5">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC89928" />
+		</classes>
+	</test>
+	<test name="PRODTest6">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC89929" />
+		</classes>
+	</test>
+	<test name="PRODTest7">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC89931" />
+		</classes>
+	</test>
+	<test name="PRODTest8">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90129" />
+		</classes>
+	</test>
+	<test name="PRODTest9">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90137" />
+		</classes>
+	</test>
+	<test name="PRODTest10">
+	<parameter name="platform" value="chrome"></parameter>
+	<classes>
+		<class name="com.spirit.testcasesProdBAT.PRODTC90721" />
+	</classes>
+</test>
+	<test name="PRODTest11">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90724" />
+		</classes>
+	</test>
+	<test name="PRODTest12">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90725" />
+		</classes>
+	</test>
+	<!--<test name="PRODTest13">-->
+		<!--<parameter name="platform" value="chrome"></parameter>-->
+		<!--<classes>-->
+			<!--<class name="com.spirit.testcasesProdBAT.PRODTC90726" />-->
+		<!--</classes>-->
+	<!--</test>-->
+	<test name="PRODTest14">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90727" />
+		</classes>
+	</test>
+	<test name="PRODTest15">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90728" />
+		</classes>
+	</test>
+	<test name="PRODTest16">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90729" />
+		</classes>
+	</test>
+	<test name="PRODTest17">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90730" />
+		</classes>
+	</test>
+	<test name="PRODTest18">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90738" />
+		</classes>
+	</test>
+	<test name="PRODTest19">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90739" />
+		</classes>
+	</test>
+	<test name="PRODTest20">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90749" />
+		</classes>
+	</test>
+	<test name="PRODTest21">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90752" />
+		</classes>
+	</test>
+	<test name="PRODTest22">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90755" />
+		</classes>
+	</test>
+	<test name="PRODTest23">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90764" />
+		</classes>
+	</test>
+	<test name="PRODTest24">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90765" />
+		</classes>
+	</test>
+	<test name="PRODTest25">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90769" />
+		</classes>
+	</test>
+	<test name="PRODTest26">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90776" />
+		</classes>
+	</test>
+	<test name="PRODTest27">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90787" />
+		</classes>
+	</test>
+	<test name="PRODTest28">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90791" />
+		</classes>
+	</test>
+	<test name="PRODTest29">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90868" />
+		</classes>
+	</test>
+	<test name="PRODTest30">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90870" />
+		</classes>
+	</test>
+	<test name="PRODTest31">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90917" />
+		</classes>
+	</test>
+	<test name="PRODTest32">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90918" />
+		</classes>
+	</test>
+	<test name="PRODTest33">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90941" />
+		</classes>
+	</test>
+	<test name="PRODTest34">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC90982" />
+		</classes>
+	</test>
+	<test name="PRODTest35">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91049" />
+		</classes>
+	</test>
+	<test name="PRODTest36">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91066" />
+		</classes>
+	</test>
+	<test name="PRODTest37">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91070" />
+		</classes>
+	</test>
+	<test name="PRODTest38">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91076" />
+		</classes>
+	</test>
+	<test name="PRODTest39">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91079" />
+		</classes>
+	</test>
+	<test name="PRODTest40">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91080" />
+		</classes>
+	</test>
+	<test name="PRODTest41">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91118" />
+		</classes>
+	</test>
+	<test name="PRODTest42">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91230" />
+		</classes>
+	</test>
+	<test name="PRODTest43">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91247" />
+		</classes>
+	</test>
+	<test name="PRODTest44">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91254" />
+		</classes>
+	</test>
+	<test name="PRODTest45">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91256" />
+		</classes>
+	</test>
+	<test name="PRODTest46">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91411" />
+		</classes>
+	</test>
+	<test name="PRODTest47">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91415" />
+		</classes>
+	</test>
+	<test name="PRODTest48">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91418" />
+		</classes>
+	</test>
+	<test name="PRODTest49">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91426" />
+		</classes>
+	</test>
+	<test name="PRODTest50">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesProdBAT.PRODTC91458" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="BAT" parallel="tests" thread-count="15">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+
+	<test name="BAT1">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.BATTest" />
+		</classes>
+	</test>
+	<test name="BAT2">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC279927" />
+		</classes>
+	</test>
+	<test name="BAT3">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC279953" />
+		</classes>
+	</test>
+	<test name="BAT4">
+ 		<parameter name="platform" value="Firefox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC369465" />
+		</classes>
+	</test>
+	<test name="BAT5">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC369466" />
+		</classes>
+	</test>
+	<test name="BAT6">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC369468" />
+		</classes>
+	</test>
+	<test name="BAT7">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC369480" />
+		</classes>
+	</test>
+	<test name="BAT8">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC369493" />
+		</classes>
+	</test>
+	<test name="BAT9">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC377294" />
+		</classes>
+	</test>
+	<test name="BAT10">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC280787" />
+		</classes>
+	</test>
+	<test name="BAT11">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC281217" />
+		</classes>
+	</test>
+	<test name="BAT12">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90714" />
+		</classes>
+	</test>
+	<test name="BAT13">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90751" />
+		</classes>
+	</test>
+	<test name="BAT14">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90756" />
+		</classes>
+	</test>
+	<test name="BAT15">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90757" />
+		</classes>
+	</test>
+	<test name="BAT16">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90760" />
+		</classes>
+	</test>
+	<test name="BAT17">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90796" />
+		</classes>
+	</test>
+	<test name="BAT18">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90797" />
+		</classes>
+	</test>
+	<test name="BAT19">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90823" />
+		</classes>
+	</test>
+	<test name="BAT20">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90859" />
+		</classes>
+	</test>
+	<test name="BAT21">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90874" />
+		</classes>
+	</test>
+	<test name="BAT22">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91134" />
+		</classes>
+	</test>
+	<test name="BAT23">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90913" />
+		</classes>
+	</test>
+	<test name="BAT24">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90914" />
+		</classes>
+	</test>
+	<test name="BAT25">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90931" />
+		</classes>
+	</test>
+	<test name="BAT26">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90940" />
+		</classes>
+	</test>
+	<test name="BAT27">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90944" />
+		</classes>
+	</test>
+	<test name="BAT28">
+ 		<parameter name="platform" value="Firefox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC90969" />
+		</classes>
+	</test>
+	<test name="BAT29">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91056" />
+		</classes>
+	</test>
+	<test name="BAT30">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91110" />
+		</classes>
+	</test>
+	<test name="BAT31">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91112" />
+		</classes>
+	</test>
+	<test name="BAT32">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91332" />
+		</classes>
+	</test>
+	<test name="BAT33">
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91369" />
+		</classes>
+	</test>
+	<test name="BAT34">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91438" />
+		</classes>
+	</test>
+	<test name="BAT35">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.TC91982" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="REGRESSIONCRITICAL2" parallel="tests" thread-count="13">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+
+	<test name="REGRESSIONCRITICAL51"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280608" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL52">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280612" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL53">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280627" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL54">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280646" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL55">
+		<parameter name="platform" value="Firefox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280653" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL56"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280656" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL57"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280662" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL58">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280665" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL59">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280670" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL60">
+		<parameter name="platform" value="Firefox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280675" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL61"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280680" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL62">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280693" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL63">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280704" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL64">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280716" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL65">
+		<parameter name="platform" value="Firefox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280725" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL66">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280728" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL67">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280729" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL68"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280731" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL69">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280732" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL70"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280733" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL71">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280739" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL72">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280740" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL73">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280748" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL74"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280753" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL75">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280758" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL76"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280763" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL77">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280771" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL78"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280775" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL79">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280779" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL80"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC378734" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL81">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280785" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL82"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280788" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL83">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280791" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL84"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280797" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL85">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280806" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL86"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280807" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL87">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280808" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL88"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280812" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL89">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280820" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL90"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280825" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL91">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280826" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL92"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280829" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL93"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280830" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL94"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280837" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL95"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280849" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL96"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280856" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL97"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280859" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL98"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280862" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL99"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280864" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL100"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC280867" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

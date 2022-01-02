@@ -1,0 +1,114 @@
+[
+	{
+		"requestType"		: "FSAccountTab",
+		"title"				: "Mr.",
+		"firstName"			: "FSMember",
+		"middleName"		: "Team",
+		"lastName"	    	: "Automation",
+		"suffix"			: "Sr.",
+		"dob"				: "08/18/1984",
+		"email"				: "@spirit.com",
+		"confirmEmail"		: "@spirit.com",
+		"createPassword"	: "Spirit11!",
+		"confirmPassowrd"	: "Spirit11!"
+	},
+		{
+		"requestType"		: "NineFCAccountTab",
+		"title"				: "Mr.",
+		"firstName"			: "NineFCMember",
+		"middleName"		: "Team",
+		"lastName"	    	: "Automation",
+		"suffix"			: "Sr.",
+		"dob"				: "08/18/1984",
+		"email"				: "@spirit.com",
+		"confirmEmail"		: "@spirit.com",
+		"createPassword"	: "Spirit11!",
+		"confirmPassowrd"	: "Spirit11!"
+	},
+		{
+		"requestType"		: "ContactTab",
+		"address1"			: "2800 Executive Way",
+		"address2"			: "",
+		"city"				: "Miramar",
+		"state"	    		: "Florida",
+		"stateCode"			: "FL",
+		"zipCode"			: "33025",
+		"country"			: "United States of America",
+		"countryCode"		: "US",
+		"phoneNumber"		: "9544862764",
+		"secondaryPhone"	: "9544862765",
+		"homeAirport"		: "Fort Lauderdale, FL / Miami, FL AREA (FLL)",
+		"secondaryAirport"	: "Las Vegas, NV (LAS)"
+
+	},
+		{
+		"requestType"		: "ContactTabNonUS",
+		"address1"			: "2800 Executive Way",
+		"address2"			: "",
+		"city"				: "Miramar",
+		"state"	    		: "Florida",
+		"stateCode"			: "FL",
+		"zipCode"			: "33025",
+		"country"			: "Colombia, Republic of",
+		"phoneNumber"		: "7834862764",
+		"secondaryPhone"	: "7834862765",
+		"homeAirport"		: "Fort Lauderdale, FL / Miami, FL AREA (FLL)",
+		"secondaryAirport"	: "Las Vegas, NV (LAS)"
+
+	},
+		{
+		"requestType"		: "ContactTabFSMasterCard",
+		"address1"			: "198 stuart avenue",
+		"address2"			: "",
+		"city"				: "Hollywood",
+		"state"	    		: "Florida",
+		"stateCode"			: "FL",
+		"zipCode"			: "33096",
+		"country"			: "United States of America",
+		"phoneNumber"		: "9549549549",
+		"secondaryPhone"	: "9544471111",
+		"homeAirport"		: "Fort Lauderdale, FL / Miami, FL AREA (FLL)",
+		"secondaryAirport"	: "Las Vegas, NV (LAS)"
+
+	},
+	{
+		"requestType"		: "ContactTabMilitaryFSMasterCard",
+		"address1"			: "28000 EXECUTIVE WAY",
+		"address2"			: "",
+		"city"				: "MIRAMAR",
+		"state"	    		: "Florida",
+		"stateCode"			: "FL",
+		"zipCode"			: "33025",
+		"country"			: "United States of America",
+		"phoneNumber"		: "6669998885",
+		"secondaryPhone"	: "",
+		"homeAirport"		: "Fort Lauderdale, FL / Miami, FL AREA (FLL)",
+		"secondaryAirport"	: "Las Vegas, NV (LAS)"
+	},
+	{
+		"requestType"		: "ContactTabMilitary9DFC",
+		"address1"			: "28000 EXECUTIVE WAY",
+		"address2"			: "",
+		"city"				: "MIRAMAR",
+		"state"	    		: "Florida",
+		"stateCode"			: "FL",
+		"zipCode"			: "33025",
+		"country"			: "United States of America",
+		"phoneNumber"		: "9547896321",
+		"secondaryPhone"	: "",
+		"homeAirport"		: "Atlanta, GA (ATL)",
+		"secondaryAirport"	: "Atlantic City, NJ (ACY)"
+	},
+	{
+		"requestType"    	: "FreeSpiritMasterCardUMNR",
+		"title"            	: "Mr.",
+		"firstName"        	: "gonzalez",
+		"middleName"    	: "",
+		"lastName"        	: "rodriguez",
+		"suffix"        	: "",
+		"dob"            	: "01/01/2010",
+		"ktNumber"        	: "",
+		"fsNumber"        	: "1000231884"
+	}
+
+]

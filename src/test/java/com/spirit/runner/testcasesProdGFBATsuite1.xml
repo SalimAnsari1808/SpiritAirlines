@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="testcasesProdGFBAT" parallel="tests" thread-count="15">
+  <listeners>
+      <listener class-name="com.spirit.testNG.AnnotationTransformer" />
+  </listeners>
+<!--  <test name="ProdGFBATTest1">-->
+<!--       <parameter name="platform" value="Chrome"></parameter> -->
+<!--      <classes>-->
+<!--          <class name="com.spirit.testcasesProdGFBAT.PRODFlightOnlyCarUpsell" />-->
+<!--      </classes>-->
+<!--  </test>-->
+  <test name="ProdGFBATTest2">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODFlightOnlyHotelCarUpsell" />
+      </classes>
+  </test>
+<!--  <test name="ProdGFBATTest3">-->
+<!--       <parameter name="platform" value="Chrome"></parameter> -->
+<!--      <classes>-->
+<!--          <class name="com.spirit.testcasesProdGFBAT.PRODFlightOnlyHotelUpsell" />-->
+<!--      </classes>-->
+<!--  </test>-->
+  <test name="ProdGFBATTest4">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODFlightPlusCar" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest5">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODFlightPlusHotel" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest6">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373864" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest7">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373865" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest8">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373868" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest9">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373869" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest10">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373873" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest11">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373996" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest12">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373997" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest13">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373998" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest14">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC373999" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest15">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374000" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest16">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374001" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest17">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374008" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest18">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374010" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest19">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374011" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest20">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374012" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest21">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374018" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest22">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374019" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest23">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374020" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest24">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC374319" />
+      </classes>
+  </test>
+  <test name="ProdGFBATTest25">
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesProdGFBAT.PRODTC733942" />
+      </classes>
+  </test>
+
+</suite> <!-- Suite -->
+

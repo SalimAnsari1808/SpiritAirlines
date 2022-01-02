@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="Package_Booking_Cancellation" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+
+	<test name="Package_Booking_Cancellation_1">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.Package_Booking_Cancellation.Cancel_Car_Booking" />
+		</classes>
+	</test>
+	<test name="Package_Booking_Cancellation_2">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.Package_Booking_Cancellation.Cancel_Hotel_Booking" />
+		</classes>
+	</test>
+	<test name="Package_Booking_Cancellation_3">
+ 		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.Package_Booking_Cancellation.Cancel_Hotel_Check_In" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

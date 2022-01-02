@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BATSMOKE" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+	<test name="BATTest1">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.BATTest" />
+		</classes>
+	</test>
+	<test name="BATTest2">
+		<parameter name="platform" value="NA"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesBAT.BATTest" />
+		</classes>
+	</test>
+<!--	<test name="BATTest3">-->
+<!--		<parameter name="platform" value="Chrome"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90756" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest4">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90757" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest5">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.EPIC31211" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest6">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90796" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest7">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90797" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest8">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90823" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest9">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90859" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest10">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90874" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest11">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC279953" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest12">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90913" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest13">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90914" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest14">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90969" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest15">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90931" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest16">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90940" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest17">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90944" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest18">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC91056" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest19">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC91110" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="BATTest20">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.EPIC31227" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest21">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.EPIC31228" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest22">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.EPIC31229" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest23">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC91332" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest24">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC91369" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest25">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC91438" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest26">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.EPIC31233" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest27">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC279927" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest28">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.EPIC31235" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest29">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90150" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest30">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC281391" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest31">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.EPIC31239" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest32">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90407" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest33">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC90760" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="BATTest34">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesBAT.TC91112" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest1">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91251" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest2">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC86979" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest3">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91305" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest4">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90715" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest5">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90718" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest6">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90719" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest7">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90783" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest8">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90798" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest9">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90799" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest10">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90822" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest11">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90828" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest12">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90950" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest13">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90956" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest14">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC90961" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest23">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91048" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest24">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91051" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest25">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91052" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest26">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91069" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest27">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91074" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest28">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91077" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest29">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91116" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest30">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91122" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest31">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91124" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest32">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91139" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest33">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91154" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest34">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91165" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest35">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91199" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest36">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91202" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest37">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91232" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest38">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91268" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest39">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91271" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest40">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91272" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest41">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91333" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest42">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91334" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest43">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91335" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest44">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91336" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest45">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91337" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest46">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91338" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest47">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91339" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest48">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91340" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest49">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91341" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="SMOKETest50">-->
+<!--		<parameter name="platform" value="Safari"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.spirit.testcasesSMOKE.TC91342" />-->
+<!--		</classes>-->
+<!--	</test>-->
+</suite> <!-- Suite -->

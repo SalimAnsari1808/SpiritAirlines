@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="testcasesGoldFinger3" parallel="tests" thread-count="17">
+  <listeners>
+      <listener class-name="com.spirit.testNG.AnnotationTransformer" />
+  </listeners>
+  <test name="testcasesGoldFingerTest101"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373444" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest102"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373708" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest103"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373709" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest104"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373712" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest105"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373713" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest106"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373716" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest107"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373717" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest108"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373718" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest109"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373722" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest110"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373723" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest111"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373726" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest112"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373728" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest113"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373729" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest114"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373731" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest115"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373736" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest116"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373737" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest117"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373740" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest118"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373741" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest119"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373744" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest120"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373745" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest121"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373748" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest122"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373749" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest123"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373752" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest124"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373753" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest125"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373760" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest126"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373761" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest127"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373762" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest128"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373766" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest129"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373768" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest130"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373769" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest131"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373772" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest132"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373773" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest133"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373822" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest134"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373824" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest135"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373827" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest136"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373828" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest137"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373839" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest138"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373840" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest139"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373844" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest140"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373845" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest141"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373846" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest142"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373864" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest143"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373865" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest144"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373868" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest145"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373869" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest146"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373873" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest147"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373876" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest148"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373877" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest149"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373878" />
+      </classes>
+  </test>
+  <test name="testcasesGoldFingerTest150"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesGoldFinger.TC373886" />
+      </classes>
+  </test>
+
+</suite> <!-- Suite -->
+

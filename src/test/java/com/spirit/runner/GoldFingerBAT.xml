@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="GoldFingerBAT" parallel="tests" thread-count="15">
+  <listeners>
+      <listener class-name="com.spirit.testNG.AnnotationTransformer" />
+  </listeners>
+  <test name="testcasesBATGoldFingerTest1"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesBATGoldFinger.FlightOnlyCarUpsell" />
+      </classes>
+  </test>
+  <test name="testcasesBATGoldFingerTest2"> 
+       <parameter name="platform" value="FireFox"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesBATGoldFinger.FlightOnlyHotelCarUpsell" />
+      </classes>
+  </test>
+  <test name="testcasesBATGoldFingerTest3"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesBATGoldFinger.FlightOnlyHotelUpsell" />
+      </classes>
+  </test>
+  <test name="testcasesBATGoldFingerTest4"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesBATGoldFinger.FlightPlusCar" />
+      </classes>
+  </test>
+  <test name="testcasesBATGoldFingerTest5"> 
+       <parameter name="platform" value="Chrome"></parameter> 
+      <classes>
+          <class name="com.spirit.testcasesBATGoldFinger.FlightPlusHotel" />
+      </classes>
+  </test>
+
+</suite> <!-- Suite -->
+

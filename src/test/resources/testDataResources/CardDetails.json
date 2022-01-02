@@ -1,0 +1,120 @@
+[
+	{
+		"requestType"		: "MasterCard",
+		"cardName"			: "Master",
+		"cardHolderName"	: "MASTER MISTER",
+		"cardNumber"		: "5429775372474030",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+		{
+		"requestType"		: "VisaCard",
+		"cardName"			: "Visa",
+		"cardHolderName"	: "VISA MISTER",
+		"cardNumber"		: "4012001021000605",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+		{
+		"requestType"		: "AmericanExpressCard",
+		"cardName"			: "American Express",
+		"cardHolderName"	: "AMEX MISTER",
+		"cardNumber"		: "373235387881007",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "1234"
+		
+	},
+		{
+		"requestType"		: "DiscoverCard1",
+		"cardName"			: "Discover",
+		"cardHolderName"	: "DISC MISTER",
+		"cardNumber"		: "6011212100000004",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+		{
+		"requestType"		: "DiscoverCard2",
+		"cardName"			: "Discover",
+		"cardHolderName"	: "DISC MISTER",
+		"cardNumber"		: "6011499700000084",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+		{
+		"requestType"		: "DiscoverCard3",
+		"cardName"			: "Discover",
+		"cardHolderName"	: "DISC MISTER",
+		"cardNumber"		: "6011450900000002",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+		{
+		"requestType"		: "DiscoverCard4",
+		"cardName"			: "Discover",
+		"cardHolderName"	: "DISC MISTER",
+		"cardNumber"		: "6011212100000004",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+		{
+		"requestType"		: "DiscoverCard5",
+		"cardName"			: "Discover",
+		"cardHolderName"	: "DISC MISTER",
+		"cardNumber"		: "6011497400008977",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+		{
+		"requestType"		: "DiscoverCard6",
+		"cardName"			: "Discover",
+		"cardHolderName"	: "DISC MISTER",
+		"cardNumber"		: "6011409900000008",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+		
+	},
+	{
+		"requestType"		: "HotCard",
+		"cardName"			: "Master",
+		"cardHolderName"	: "MrFraud",
+		"cardNumber"		: "5100001008802395",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+
+	},
+	{
+		"requestType"		: "DeclinedVisa",
+		"cardName"			: "Visa",
+		"cardHolderName"	: "DeclinedVisa",
+		"cardNumber"		: "4012001021000639",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+
+	},
+	{
+		"requestType"		: "DeclinedMaster",
+		"cardName"			: "Master",
+		"cardHolderName"	: "DeclinedMaster",
+		"cardNumber"		: "5100000014101198",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+
+	},
+	{
+		"requestType"		: "DeclinedDiscover",
+		"cardName"			: "Discover",
+		"cardHolderName"	: "DeclinedDiscover",
+		"cardNumber"		: "6011000011112228",
+		"expirationDate"	: "02/30",
+		"securityCode"	    : "123"
+
+	}
+]
+

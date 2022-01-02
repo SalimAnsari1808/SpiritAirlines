@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SMOKE2" parallel="tests" thread-count="13">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+	<test name="SMOKETest51">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC373158" />
+		</classes>
+	</test>
+	<test name="SMOKETest52">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC374877" />
+		</classes>
+	</test>
+	<test name="SMOKETest53">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC374993" />
+		</classes>
+	</test>
+	<test name="SMOKETest54">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC377942" />
+		</classes>
+	</test>
+	<test name="SMOKETest55">
+		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC377977" />
+		</classes>
+	</test>
+	<test name="SMOKETest56">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC378012" />
+		</classes>
+	</test>
+	<test name="SMOKETest57">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC378086" />
+		</classes>
+	</test>
+	<test name="SMOKETest58">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC378518" />
+		</classes>
+	</test>
+	<test name="SMOKETest59">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281161" />
+		</classes>
+	</test>
+	<test name="SMOKETest60">
+		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280846" />
+		</classes>
+	</test>
+	<test name="SMOKETest61">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281114" />
+		</classes>
+	</test>
+	<test name="SMOKETest62">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281123" />
+		</classes>
+	</test>
+	<test name="SMOKETest63">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280857" />
+		</classes>
+	</test>
+	<test name="SMOKETest64">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280497" />
+		</classes>
+	</test>
+	<test name="SMOKETest65">
+		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280860" />
+		</classes>
+	</test>
+	<test name="SMOKETest66">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281059" />
+		</classes>
+	</test>
+	<test name="SMOKETest67">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280905" />
+		</classes>
+	</test>
+	<test name="SMOKETest68">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280912" />
+		</classes>
+	</test>
+	<test name="SMOKETest69">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280914" />
+		</classes>
+	</test>
+	<test name="SMOKETest70">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280782" />
+		</classes>
+	</test>
+	<test name="SMOKETest71">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280736" />
+		</classes>
+	</test>
+	<test name="SMOKETest72">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280741" />
+		</classes>
+	</test>
+	<test name="SMOKETest73">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280746" />
+		</classes>
+	</test>
+	<test name="SMOKETest74">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280335" />
+		</classes>
+	</test>
+	<test name="SMOKETest75">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280863" />
+		</classes>
+	</test>
+	<test name="SMOKETest76">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280896" />
+		</classes>
+	</test>
+	<test name="SMOKETest77">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280707" />
+		</classes>
+	</test>
+	<test name="SMOKETest78">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281018" />
+		</classes>
+	</test>
+	<test name="SMOKETest79">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280724" />
+		</classes>
+	</test>
+	<test name="SMOKETest80">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281240" />
+		</classes>
+	</test>
+	<test name="SMOKETest81">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281245" />
+		</classes>
+	</test>
+	<test name="SMOKETest82">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC281284" />
+		</classes>
+	</test>
+	<test name="SMOKETest83">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280540" />
+		</classes>
+	</test>
+	<test name="SMOKETest84">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280444" />
+		</classes>
+	</test>
+	<test name="SMOKETest85">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280469" />
+		</classes>
+	</test>
+	<test name="SMOKETest86">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280425" />
+		</classes>
+	</test>
+	<test name="SMOKETest87">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC280385" />
+		</classes>
+	</test>
+	<test name="SMOKETest88">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90704" />
+		</classes>
+	</test>
+	<test name="SMOKETest89">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90708" />
+		</classes>
+	</test>
+	<test name="SMOKETest90">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90711" />
+		</classes>
+	</test>
+	<test name="SMOKETest91">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90713" />
+		</classes>
+	</test>
+	<test name="SMOKETest92">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90715" />
+		</classes>
+	</test>
+	<test name="SMOKETest93">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90717" />
+		</classes>
+	</test>
+	<test name="SMOKETest94">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90718" />
+		</classes>
+	</test>
+	<test name="SMOKETest95">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90719" />
+		</classes>
+	</test>
+	<test name="SMOKETest96">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90766" />
+		</classes>
+	</test>
+	<test name="SMOKETest97">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90783" />
+		</classes>
+	</test>
+	<test name="SMOKETest98">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90798" />
+		</classes>
+	</test>
+	<test name="SMOKETest99">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90799" />
+		</classes>
+	</test>
+	<test name="SMOKETest100">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesSMOKE.TC90800" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

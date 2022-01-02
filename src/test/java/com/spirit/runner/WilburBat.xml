@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="WilburBat" parallel="tests" thread-count="1">
+  <listeners>
+      <listener class-name="com.spirit.testNG.AnnotationTransformer" />
+  </listeners>
+  <test name="WilburBat_Find_Flights">
+<!--       <parameter name="platform" value="Chrome"></parameter> -->
+      <classes>
+          <class name="com.spirit.WilburBAT.SearchAndFillFlightNumberForWilbur" />
+      </classes>
+  </test>
+  <test name="Wilbur_Generate_Pnr">
+<!--       <parameter name="platform" value="Chrome"></parameter>-->
+      <classes>
+          <class name="com.spirit.WilburBAT.WilburBat" />
+      </classes>
+  </test>
+    <test name="OverBook_Flight">
+    <!--       <parameter name="platform" value="Chrome"></parameter>-->
+    <classes>
+        <class name="com.spirit.WilburBAT.WilburTest_Overbook" />
+    </classes>
+</test>
+    <test name="Wilbur_Select_Bid">
+               <parameter name="platform" value="Chrome"></parameter>
+        <classes>
+            <class name="com.spirit.WilburBAT.WilburSelectBidOption" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->
+

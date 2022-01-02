@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+	<test name="BATTest1">
+		<parameter name="platform" value="Safari"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC90734" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

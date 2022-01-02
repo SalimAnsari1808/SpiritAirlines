@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeartBeat" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+	<!--<test name="HeartBeat1">-->
+		<!--<parameter name="NA" value="chrome"></parameter>-->
+		<!--<classes>-->
+			<!--<class name="com.spirit.testcasesHeartBeat.HeartBeat1" />-->
+		<!--</classes>-->
+	<!--</test>-->
+	<test name="HeartBeat2">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat2" />
+		</classes>
+	</test>
+	<test name="HeartBeat3">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat3" />
+		</classes>
+	</test>
+	<test name="HeartBeat4">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat4" />
+		</classes>
+	</test>
+	<test name="HeartBeat5">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat5" />
+		</classes>
+	</test>
+	<test name="HeartBeat6">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat6" />
+		</classes>
+	</test>
+	<test name="HeartBeat7">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat7" />
+		</classes>
+	</test>
+	<test name="HeartBeat8">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat8" />
+		</classes>
+	</test>
+	<test name="HeartBeat9">
+		<parameter name="NA" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesHeartBeat.HeartBeat9" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

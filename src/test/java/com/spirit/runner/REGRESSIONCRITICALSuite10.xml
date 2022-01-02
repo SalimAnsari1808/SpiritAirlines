@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="REGRESSIONCRITICAL10" parallel="tests" thread-count="13">
+	<listeners>
+		<listener class-name="com.spirit.testNG.AnnotationTransformer" />
+	</listeners>
+
+	<test name="REGRESSIONCRITICAL451"> 
+ 		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91472" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL452">
+		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91473" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL453"> 
+ 		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91474" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL454"> 
+ 		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91476" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL455"> 
+ 		<parameter name="platform" value="FireFox"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91477" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL456"> 
+ 		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91478" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL457">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91523" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL458">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91524" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL459"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91539" />
+		</classes>
+	</test>
+	<test name="REGRESSIONCRITICAL460"> 
+ 		<parameter name="platform" value="chrome"></parameter> 
+		<classes>
+			<class name="com.spirit.testcasesRegressionCritical.TC91983" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
